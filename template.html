@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Plant Disease Detector UI</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(135deg, #e8f8f5 0%, #fef6e4 50%, #e6f0ff 100%);
+        background-attachment: fixed;
+    }
+
+    .header-container {
+        width: 100%;
+        padding: 30px 0;
+        text-align: center;
+        backdrop-filter: blur(8px);
+        background: rgba(255, 255, 255, 0.55);
+        border-bottom: 2px solid rgba(0,0,0,0.08);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .header-title {
+        margin: 0;
+        font-size: 42px;
+        font-weight: 700;
+        color: #154360;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 5px rgba(50, 50, 50, 0.1);
+    }
+
+    .header-subtitle {
+        margin: 10px 0 0;
+        font-size: 18px;
+        color: #21618C;
+    }
+
+    /* Footer */
+    .footer-text {
+        margin-top: 70px;
+        padding-bottom: 25px;
+        text-align: center;
+        font-size: 14px;
+        opacity: 0.65;
+        color: #2c3e50;
+    }
+
+    /* Decorative Separator */
+    .separator {
+        margin: 20px auto;
+        width: 80px;
+        height: 4px;
+        background: #48c9b0;
+        border-radius: 4px;
+    }
+
+    /* Responsiveness */
+    @media only screen and (max-width: 600px) {
+        .header-title {
+            font-size: 30px;
+        }
+        .header-subtitle {
+            font-size: 16px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="header-container">
+    <h1 class="header-title">Plant Disease Detection System</h1>
+    <div class="separator"></div>
+    <h3 class="header-subtitle">AI-Powered Leaf Disease Classification & Treatment Guide</h3>
+</div>
+
+<div class="footer-text">
+    Powered by TensorFlow · Streamlit · Deep Learning Model (CNN)
+</div>
+
+</body>
+</html>
